@@ -7,10 +7,14 @@
 Uses the GitHub API to retrieve the most starred public Python projects.
 Stores the list of repositories in a SQL database table with their respective repository ID, name, URL, created date, last push date, description, and number of stars.
 
-List View:
+
+
 ![ListView](https://cdn.imgchest.com/files/w7pjc5x8v7p.png)
-Detail View:
+
+
+
 ![DetailView](https://cdn.imgchest.com/files/d7ogc58q2y9.png)
+
 <hr>
 
 **Built With**
@@ -34,6 +38,8 @@ To get a local copy up and running, please follow these simple steps.
 	Mac
 	```source venv/bin/activate```
 4. Copy src Folder in to your new environment folder
+    ```git pull https://github.com/ayazamlani/top_starred_python_projects.git```
+
 ![new environment dir](https://cdn.imgchest.com/files/j7kzc5eoq7m.png)
 5. Enter the src directory
 ```cd src```
