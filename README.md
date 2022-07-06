@@ -38,6 +38,9 @@ To get a local copy up and running, please follow these simple steps.
 	Mac:
 	```source venv/bin/activate```
 4. Copy src Folder in to your new environment folder
+    [Click here to download](https://github.com/ayazamlani/top_starred_python_projects/archive/refs/heads/main.zip)
+    OR
+    
     ```gh repo clone ayazamlani/top_starred_python_projects```
 
 ![new environment dir](https://cdn.imgchest.com/files/j7kzc5eoq7m.png)
