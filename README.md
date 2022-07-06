@@ -74,3 +74,14 @@ At the bottom of settings .py change the GITHUB_REPOSITORY_RESULTS_PER_PAGE vari
 
 
 ![Github results per page](https://cdn.imgchest.com/files/my2pcz9xw7j.png)
+
+
+To check out the admin panel, stop the dev server and run the following command and go through the super user setup
+```python manage.py createsuperuser```
+
+Now restart the dev server
+``` python manage.py runserver ```
+
+Navigate to http://localhost:8000/admin/ to play with the admin dash
+
+
