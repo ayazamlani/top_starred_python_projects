@@ -36,7 +36,7 @@ To get a local copy up and running, please follow these simple steps.
     Windows:
     ```Scripts\activate```
 	Mac:
-	```source venv/bin/activate```
+	```source bin/activate```
 4. Copy src Folder in to your new environment folder
     [Click here to download](https://github.com/ayazamlani/top_starred_python_projects/archive/refs/heads/main.zip)
     OR
@@ -57,7 +57,7 @@ To get a local copy up and running, please follow these simple steps.
 ```cd python_projects```
 
 3. Create the SQL DB
-```python manage.py makemigrations```
+
 ```python manage.py migrate```
 
 4. Start the dev server!
