@@ -63,7 +63,11 @@ To get a local copy up and running, please follow these simple steps.
 5. In your browser, navigate to http://localhost:8000
 
 **Configuration**
+
 To change the number of results per page, Enter the main app folder and edit the settings .py file.
-```cd python_projects```
+    ```cd python_projects```
+
 At the bottom of settings .py change the GITHUB_REPOSITORY_RESULTS_PER_PAGE variable
+
+
 ![Github results per page](https://cdn.imgchest.com/files/my2pcz9xw7j.png)
