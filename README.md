@@ -28,10 +28,10 @@ To get a local copy up and running, please follow these simple steps.
 
 **Pre-requisites**
 1. Create a virtual environment
-```python -m venv top_starred_python_projects```
+```python -m venv top_starred_env```
 
 2. Enter the environment
-    ```cd top_starred_python_projects```
+    ```cd top_starred_env```
 3. Activate the environment
     Windows:
     ```Scripts\activate```
@@ -41,12 +41,12 @@ To get a local copy up and running, please follow these simple steps.
     [Click here to download](https://github.com/ayazamlani/top_starred_python_projects/archive/refs/heads/main.zip)
     OR
     
-    ```gh repo clone ayazamlani/top_starred_python_projects```
+    ```git clone https://github.com/ayazamlani/top_starred_python_projects.git```
 
 ![new environment dir](https://cdn.imgchest.com/files/j7kzc5eoq7m.png)
 
 5. Enter the src directory
-    ```cd src```
+    ```cd top_starred_python_projects```
 
 **Installation**
 
