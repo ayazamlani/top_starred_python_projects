@@ -41,6 +41,7 @@ To get a local copy up and running, please follow these simple steps.
     ```git pull https://github.com/ayazamlani/top_starred_python_projects.git```
 
 ![new environment dir](https://cdn.imgchest.com/files/j7kzc5eoq7m.png)
+
 5. Enter the src directory
     ```cd src```
 
