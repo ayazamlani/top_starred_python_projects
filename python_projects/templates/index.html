@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="text-3xl font-bold underline">HOME PAGE</h1>
+  <ul>
+    {% for repo in repos %}
+    <li>{{ repo.name }} - {{repo.number_of_stars}}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

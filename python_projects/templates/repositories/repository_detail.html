@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="text-lg p-5"><span class="text-3xl font-bold pr-4">{{ object.name }} </span>☆{{object.number_of_stars}}</h1>
+  <hr>
+  <div class="text-lg">
+  <p class="text-xl m-3"><span class="font-bold">URL:</span> <a href="{{ object.url }}" target="_blank" class="hover:text-purple-600">{{ object.url }}</a></p>
+  <p class="mb-3"><span class="font-bold">Date Created:</span> {{ object.created_date|date }}</p>
+  <p class="mb-3"><span class="font-bold">Date Last Pushed:</span> {{ object.last_push_date|date }}</p>
+  <p class="mb-3"><span class="font-bold">Github Repository ID:</span> {{ object.repo_id }}</p>
+  <p class="mb-3"><span class="font-bold">Description:</span> {{ object.description }}</p>
+  </div>
+  <hr>
+    <h2 class="p-3 text-lg" ><a href="javascript:history.back()" class="hover:text-purple-600">Go Back</a></h2>
+{% endblock %}
